@@ -1,2 +1,2 @@
 # Synuit.Blockchain.Api
-C-Sharp.Net client library for popular crypto/blockchain web api's.
+Blockchain and cryptocurrency web api client libraries for .NET
