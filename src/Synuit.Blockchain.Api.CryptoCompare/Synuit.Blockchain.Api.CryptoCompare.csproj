@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Tyson A. Corvin, Ella Corvin</Authors>
+    <Company>Synuit Software</Company>
+    <Product>Synuit.Blockchain.Api</Product>
+    <Description>CryptoCompare Market Infomation Api for .NET</Description>
+    <Copyright>Copyright © 2017-2018 Synuit Software</Copyright>
+    <PackageLicenseUrl>https://github.com/Synuit/Synuit.Blockchain.Api/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Synuit/Synuit.Blockchain.Api</PackageProjectUrl>
+    <PackageIconUrl>https://media.synuit.io/wp-content/uploads/2018/05/blockchain256x256.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/Synuit/Synuit.Blockchain.Api</RepositoryUrl>
+    <RepositoryType>C#</RepositoryType>
+    <PackageTags>synuit, blockchain, cryptocurrency, altcoin, bitcoin, crypto, api, cryptocompare</PackageTags>
+    <PackageReleaseNotes>v1.0.0 - Targeting NET Standard 2.0</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Synuit.Toolkit" Version="1.0.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Synuit.Blockchain.Api\Synuit.Blockchain.Api.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>Synuit.Blockchain.Api</PackageId>
+    <Authors>Tyson A. Corvin, Ella Corvin</Authors>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageTags>synuit, blockchain, cryptocurrency, altcoin, bitcoin, crypto, api</PackageTags>
+    <Description>Blockchain and cryptocurrency web api client libraries for .NET</Description>
+    <Company>Synuit Software</Company>
+    <Copyright>Copyright © 2017-2018 Synuit Software</Copyright>
+    <PackageIconUrl>https://media.synuit.io/wp-content/uploads/2018/05/blockchain256x256.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/Synuit/Synuit.Blockchain.Api</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Synuit/Synuit.Blockchain.Api</RepositoryUrl>
+    <RepositoryType>c#</RepositoryType>
+    <PackageReleaseNotes>v1.0.0 - Targeting NET Standard 2.0</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseUrl>https://github.com/Synuit/Synuit.Blockchain.Api/blob/master/LICENSE</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Coin\Exceptions\" />
+    <Folder Include="Coin\Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Properties\Icon&#xD;" />
+  </ItemGroup>
+</Project>
