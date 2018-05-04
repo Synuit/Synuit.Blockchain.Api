@@ -7,7 +7,7 @@
     <Authors>Tyson A. Corvin, Ella Corvin</Authors>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageTags>synuit, blockchain, cryptocurrency, altcoin, bitcoin, crypto, api</PackageTags>
-    <Description>Blockchain and cryptocurrency web api client libraries for .NET</Description>
+    <Description>Blockchain and cryptocurrency web api client libraries for .NET.</Description>
     <Company>Synuit Software</Company>
     <Copyright>Copyright © 2017-2018 Synuit Software</Copyright>
     <PackageIconUrl>https://media.synuit.io/wp-content/uploads/2018/05/blockchain256x256.png</PackageIconUrl>
